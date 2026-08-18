@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Login</tittle>
+</head>
+<body>
+<h2>My Login</h2>
+<lablel>username</lablel><br>
+<input id="username" type"text"><br><br>
+<lable1>password</lablel><br>
+<input id="password" type="password"><br><br>
+<lablel>pin</lablel><br>
+<input id="pin" type="password"
+maxlength="4"><br><br>
+<button onclick="login"()">login</button>
+<p id="result"></p>
+<script>
+function login() {
+const username =
+document.getElementyById("username").value;
+const password =
+document.getElementById("password").value;
+const pin=
+document.getElemetyById("pin").value;
+if (username === "diogan" &&
+password ==="diogan@1234" &&
+pin ==="2580") {
+document.getElementyById("result").innerTxt =Text =Text=
+"Login successful";
+} else {
+document.getElementyById("result").innerText =
+  "Wrong username, password or PIN.";
+}
+}</script>
+</body>
+</html>
